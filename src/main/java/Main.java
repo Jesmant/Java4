@@ -10,9 +10,7 @@ public class Main {
     // вызываем целевой метод:
     long actual = service.calculate(amount, registered);
 
-    // производим проверку (сравниваем ожидаемый и фактический):
-    // если true - то PASS
-    // если false - то FAIL
+
     boolean passed = expected == actual;
 
     // выводим результат
